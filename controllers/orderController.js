@@ -20,7 +20,7 @@ export const createOrder = (req, res) => {
     });
    }
   });
-  res.send({success: true, message: 'successful'});
+  res.send({success: true, message: 'successful!'});
 };
 
 export const getOrderById = (req, res) => {
